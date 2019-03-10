@@ -85,14 +85,14 @@ WSGI_APPLICATION = 'Downlod.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'download',
-        # 'NAME': 'XGame$game_exchange',
-        'HOST': 'localhost',
-        # 'HOST': 'XGame.mysql.pythonanywhere-services.com',
-        'USER': 'root',
-        # 'USER': 'XGame',
-        'PASSWORD': '',
-        # 'PASSWORD': 'qUTJYSJN8A69ADjsiiczNpBoSQDLlYdjlZhA5ZxDU89elo9gVR0cxtS00X4Vnrk0kRWa1baq8q8krohXu6UfjTz9XYXd9S0leO9V',
+        # 'NAME': 'download',
+        'NAME': 'easyget$default',
+        # 'HOST': 'localhost',
+        'HOST': 'easyget.mysql.pythonanywhere-services.com',
+        # 'USER': 'root',
+        'USER': 'easyget',
+        # 'PASSWORD': '',
+        'PASSWORD': '$mili*1995',
         'port': '3306',
         'OPTIONS': {
             'charset': 'utf8mb4',
